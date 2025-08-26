@@ -36,11 +36,11 @@ docker-compose up -d
 git clone https://github.com/jonahkraft/mathclock.git
 cd mathclock
 
-# Build the image
+# Build the image and run the container
 docker build -t mathclock .
-
-# Run the container
 docker run -d -p 3001:80 mathclock
+
+# Access the application at http://localhost:3001
 ```
 
 ### Without Docker
@@ -50,7 +50,7 @@ docker run -d -p 3001:80 mathclock
 git clone https://github.com/jonahkraft/mathclock.git
 cd mathclock
 
-# Simply open index.html in your browser - no build process or server required
+# Simply open index.html in your browser
 open index.html
 ```
 
