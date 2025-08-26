@@ -1,6 +1,6 @@
 # MathClock
 
-A fun web app that displays the current time as mathematical expressions instead of regular digits. Instead of showing `14:32`, you might see `7×2:16+16`!
+A fun web app that displays the current time as mathematical expressions instead of regular digits. Instead of showing `17:32`, you might see `7×2+3:2*17-2`!
 
 <img src="preview.png" alt="MathClock preview showing time as mathematical expressions">
 
