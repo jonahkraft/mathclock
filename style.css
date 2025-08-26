@@ -1,0 +1,26 @@
+body {
+    background-color: #040404;
+}
+
+#main-container {
+    background-color: #262626;
+    border-radius: 20px;
+    margin: 5% 5% 5% 5%;
+    display: flex;
+    padding: 2%;
+}
+
+.content {
+    margin-left: 2%;
+}
+
+p {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: whitesmoke;
+    font-family: "Noto Sans Syriac", sans-serif;
+    font-size: 12vw;
+    font-weight: bold;
+    overflow: visible;
+}

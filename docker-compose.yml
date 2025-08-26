@@ -1,0 +1,6 @@
+services:
+  web:
+    restart: unless-stopped
+    build: .
+    ports:
+      - "3001:80"
