@@ -12,7 +12,7 @@ A small website that displays the current time as mathematical expressions inste
 
 ### Using Docker Compose
 
-If you want to run this permanently, you can use Docker for this.
+If you want to run the application permanently, you can use Docker for this.
 
 Clone the repository.
 
@@ -21,14 +21,14 @@ git clone https://github.com/jonahkraft/mathclock.git
 cd mathclock
 ```
 
-The default port is `3000`. You can adjust this by changing the `docker-compose.yml` file:
+The default port is `3000`. You can adjust this in the `docker-compose.yml` file:
 
 ```yaml
 ports:
   - "YOUR_PORT:80"
 ```
 
-Then start the application.
+Then, start the application.
 ```bash
 docker-compose up -d
 ```
@@ -43,7 +43,7 @@ Clone the repository or download the files als zip.
 git clone https://github.com/jonahkraft/mathclock.git
 ```
 
-Then simply open `index.html` with your browser.
+Then, simply open `index.html` with your browser.
 
 ## Preview
 
